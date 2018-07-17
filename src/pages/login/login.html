@@ -11,16 +11,16 @@
     <form class="list-form">
       <ion-item>
         <ion-label floating>
-          <ion-icon name="mail" item-start class="text-white"></ion-icon>
-          <span class="text-white">Email</span>
+          <ion-icon name="mail" item-start></ion-icon>
+          <span>Email</span>
         </ion-label>
         <ion-input type="email"></ion-input>
       </ion-item>
 
       <ion-item>
         <ion-label floating>
-          <ion-icon name="lock" item-start class="text-white"></ion-icon>
-          <span class="text-white">Password</span>
+          <ion-icon name="lock" item-start></ion-icon>
+          <span>Password</span>
         </ion-label>
         <ion-input type="text-white"></ion-input>
       </ion-item>
@@ -31,14 +31,14 @@
         SIGN IN
       </button>
 
-      <p text-center ion-text class="text-white">Or Sign in with:</p>
+      <p text-center ion-text>Or Sign in with:</p>
 
       <ion-grid>
         <ion-row>
           <ion-col>
             <button ion-button icon-only block class="btn-facebook">
               <ion-icon name="logo-facebook"></ion-icon>
-              <span class="text-white">Facebook</span>
+              <span>Facebook</span>
             </button>
           </ion-col> 
         </ion-row>
@@ -46,10 +46,9 @@
 
     </div>
 
-
     <!-- Other links -->
     <div text-center margin-top>
-      <span ion-text class="text-white" tappable (click)="register()">New here? <strong>Sign up</strong></span>
+      <span ion-text tappable (click)="register()">New here? <strong>Sign up</strong></span>
     </div>
 
   </div>

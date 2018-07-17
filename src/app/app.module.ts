@@ -9,14 +9,12 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {Keyboard} from '@ionic-native/keyboard';
 
 import {ActivityService} from "../services/activity-service";
-import {TripService} from "../services/trip-service";
-
 import {MyApp} from "./app.component";
+import { Calendar } from '@ionic-native/calendar'
 
 import {HomePage} from "../pages/home/home";
 import {LoginPage} from "../pages/login/login";
 import {RegisterPage} from "../pages/register/register";
-import {TripsPage} from "../pages/trips/trips";
 import { SleepPage } from '../pages/sleep/sleep';
 import { MeditatePage } from '../pages/meditate/meditate';
 import { MusicPage } from '../pages/music/music';
@@ -30,7 +28,6 @@ import { TabsPage } from '../pages/tabs/tabs';
     HomePage,
     LoginPage,
     RegisterPage,
-    TripsPage,
     SleepPage,
     MeditatePage,
     MusicPage,
@@ -56,7 +53,6 @@ import { TabsPage } from '../pages/tabs/tabs';
     HomePage,
     LoginPage,
     RegisterPage,
-    TripsPage,
     SleepPage,
     MeditatePage,
     MusicPage,
@@ -67,8 +63,7 @@ import { TabsPage } from '../pages/tabs/tabs';
     StatusBar,
     SplashScreen,
     Keyboard,
-    ActivityService,
-    TripService
+    ActivityService
   ]
 })
 

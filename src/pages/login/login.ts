@@ -1,7 +1,7 @@
 import {Component} from "@angular/core";
 import {NavController, MenuController} from "ionic-angular";
 import {HomePage} from "../home/home";
-import {RegisterPage} from "../register/register";
+import { RegisterPage } from "../register/register";
 import { TabsPage } from '../tabs/tabs';
 
 @Component({

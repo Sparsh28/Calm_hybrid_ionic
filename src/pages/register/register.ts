@@ -2,7 +2,7 @@ import {Component} from "@angular/core";
 import {NavController} from "ionic-angular";
 import {LoginPage} from "../login/login";
 import {HomePage} from "../home/home";
-
+import { TabsPage } from '../tabs/tabs';
 
 @Component({
   selector: 'page-register',
@@ -15,7 +15,7 @@ export class RegisterPage {
 
   // register and go to home page
   register() {
-    this.nav.setRoot(HomePage);
+    this.nav.setRoot(TabsPage);
   }
 
   // go to login page
